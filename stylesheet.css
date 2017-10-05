@@ -44,20 +44,29 @@ img{
 	text-align: center;
 	height: 120px;
 	width: 190px;
+	border-right: 2.5px solid #ff9900;
 	font-size: 1.00em;
 	float: left;
 	clear:left;
 	margin: 3.5px 3.5px;
+	font-style: italic;
+	font-size:1.5em;
+	font-family:fantasy;
+	color: #ff9900;
+	padding: 5px 5px;
 }
+
 
 .data {
 	padding-left: 12px;
-	border-left: 2.5px solid #ff9900;
 	height: 120px;
 	width: 575px;
 	font-size: 1.00em;
 	float:left;
-	margin: 3.5px 3.5px;
+	margin: 3.5px 13.5px;
+	padding: 5px 5px;
+	color: #f3843e;
+	font-size:1.15em;
 }
 
 ul,ol {
@@ -79,23 +88,10 @@ h5 {
 	height: 100px;
 }
 
-.term {
-	font-style: italic;
-	font-size:1.5em;
-	font-family:fantasy;
-	color: #ff9900;
-	padding: 5px 5px;
-
-}
-
-.data {
-	padding: 5px 5px;
-	color: #f3843e;
-	font-size:1.15em;
-}
-
 #school {
 	color:#6e6e6e;
 }
 
-
+li {
+	padding-left: 5px;
+}
